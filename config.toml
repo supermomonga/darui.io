@@ -55,13 +55,7 @@ identifier = "home"
 url = "/"
 
 [[menu.main]]
-name = "GitHub"
+name = "Tags"
 weight = 0
-identifier = "github"
-url = "https://github.com/supermomonga"
-
-[[menu.main]]
-name = "Twitter"
-weight = 0
-identifier = "twitter"
-url = "https://twitter.com/supermomonga"
+identifier = "tags"
+url = "/tags"
