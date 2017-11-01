@@ -39,6 +39,14 @@ twitter = "supermomonga"
 [params.social.config]
 platforms = ["github","twitter"]
 
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
 
 [[menu.main]]
 name = "Home"
