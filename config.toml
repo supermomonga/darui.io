@@ -5,6 +5,8 @@ theme = "minimo"
 
 hasCJKLanguage = true
 
+Paginate = 20
+
 
 pygmentsCodefences = true
 defaultContentLanguage = "ja"
