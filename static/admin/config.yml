@@ -2,3 +2,6 @@ backend:
   name: github
   repo: supermomonga/darui.io
   branch: master
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
