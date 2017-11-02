@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: supermomonga/darui.io
+  branch: master

@@ -45,7 +45,7 @@ category = "categories"
 tag = "tags"
 
 [permalinks]
-page = "/:slug/"
+page = "/page/:slug/"
 
 
 [[menu.main]]
