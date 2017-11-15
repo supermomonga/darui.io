@@ -5,42 +5,22 @@ theme = "kiss"
 
 hasCJKLanguage = true
 
-Paginate = 20
-
-
-pygmentsCodefences = true
 defaultContentLanguage = "ja"
+
+# Number of posts per page
+Paginate = 10
+enableRobotsTXT = true
 
 [params]
 author = "supermomonga"
 
-[params.highlight]
-style = "github"
-
-[[params.social]]
-url = "https://github.com/supermomonga"
-fa_icon = 'fa-github'
-
-[[params.social]]
-url = "https://twitter.com/supermomonga"
-fa_icon = 'fa-twitter'
-
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+[params.social]
+twitter = "supermomonga"
+github = "supermomonga"
 
 [permalinks]
 page = "/page/:slug/"
 
+[taxonomies]
+tag ="tags"
 
-[[menu.main]]
-name = "Home"
-weight = -10
-identifier = "home"
-url = "/"
-
-[[menu.main]]
-name = "Tags"
-weight = 0
-identifier = "tags"
-url = "/tags"
