@@ -11,6 +11,9 @@ defaultContentLanguage = "ja"
 Paginate = 10
 enableRobotsTXT = true
 
+pygmentsCodefences = true
+pygmentsUseClasses = true
+
 [params.assets]
 customCSS = ["css/custom.css"]
 
