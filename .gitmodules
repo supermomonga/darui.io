@@ -5,3 +5,6 @@
 [submodule "themes/minimo"]
 	path = themes/minimo
 	url = https://github.com/MunifTanjim/minimo
+[submodule "themes/kiss"]
+	path = themes/kiss
+	url = https://github.com/ribice/kiss.git

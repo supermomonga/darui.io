@@ -1,7 +1,7 @@
 baseURL = "https://darui.io/"
 languageCode = "ja-jp"
 title = "だるい"
-theme = "minimo"
+theme = "kiss"
 
 hasCJKLanguage = true
 
@@ -14,35 +14,20 @@ defaultContentLanguage = "ja"
 [params]
 author = "supermomonga"
 
-[params.info]
-description = "だるすぎる"
-title404 = "う〜ん"
+[params.highlight]
+style = "github"
 
+[[params.social]]
+url = "https://github.com/supermomonga"
+fa_icon = 'fa-github'
 
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006年01月02日 15:04"
-listDateFormat = "2006-01-02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
-showReadingTime = false
+[[params.social]]
+url = "https://twitter.com/supermomonga"
+fa_icon = 'fa-twitter'
 
-
-[params.opengraph.twitter]
-page = "supermomonga"
-
-[params.social]
-github = "supermomonga"
-twitter = "supermomonga"
-
-
-[params.social.config]
-platforms = ["github","twitter"]
-
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
 
 [permalinks]
 page = "/page/:slug/"
